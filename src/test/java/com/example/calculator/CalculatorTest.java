@@ -64,4 +64,20 @@ public class CalculatorTest {
 
         assertEquals("3이 나와야 합니다.", 3, result);
     }
+
+    @Test
+    public void test_곱셈(){
+        Calculator calc = new Calculator();
+        int result = calc.multiply(4, 3);
+
+        assertEquals("12이 나와야 합니다.", 12, result);
+    }
+
+    @Test
+    public void test_뺄셈(){
+        Calculator calc = new Calculator();
+        int result = calc.substract(12, 4);
+
+        assertEquals("8이 나와야 합니다.", 8, result);
+    }
 }
