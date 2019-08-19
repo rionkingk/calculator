@@ -70,7 +70,7 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         int result = calc.multiply(4, 3);
 
-        assertEquals("12이 나와야 합니다.", 12, result);
+        assertEquals("12이 나와야 합니다!!", 12, result);
     }
 
     @Test
@@ -78,6 +78,6 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         int result = calc.substract(12, 4);
 
-        assertEquals("8이 나와야 합니다.", 8, result);
+        assertEquals("8이 나와야 합니다!!", 8, result);
     }
 }
